@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: #dedede;
+            }
+            
+            header {
+                height: 60px;
+                background-color: #333333;
+            }
+            
+            header img {
+                height: 60px;
+                margin-left: 15px;
+            }
+            
+            header ul {
+                float: right;
+                list-style: none;
+            }
+            
+            header ul li {
+                float: left;
+                height: 60px;
+                line-height: 60px;
+                width: 200px;
+            }
+            
+            header ul li a {
+                text-align: center;
+                display: block;
+                color: #ffffff;
+                height: 60px;
+                line-height: 60px;
+                text-decoration: none;
+                width: 200px;
+            }
+            
+            header ul li a:hover {
+                background-color: #515151;
+                border-bottom: 2px solid red;
+            }
+            
+            article, aside {
+                display: block;
+                margin: 30px;
+                display: block;
+                background-color: #fff;
+                box-shadow: 10px 10px 5px #ccc;
+                padding: 20px;
+                border: 1px solid #ccc;
+            }
+            
+            article h2 {
+                padding: 10px 0;
+            }
+            
+            article h3, h5 {
+                padding: 5px 0;
+                font-weight: normal;
+            }
+            
+            article h5 {
+                color: #ccc;
+            }
+            
+            article p {
+                text-indent: 34px;
+                line-height: 25px;
+            }
+            
+            article ul {
+                list-style: none;
+            }
+            
+            article ul li {
+                margin: 10px;
+            }
+            
+            article img {
+                padding: 20px 0;
+            }
+            
+            article dl dd {
+                display: block;
+                width: 200px;
+                border: 1px solid #ccc;
+                margin: 30px 50px;
+            }
+            
+            article dl dd span {
+                display: block;
+                text-align: center;
+                font-size: 12px;
+                margin-top: 15px;
+            }
+            
+            article dl dd img {
+                width: 168px;
+                margin: 15px;
+                padding: 0;
+            }
+            
+            article ol {
+                margin: 15px 40px;
+            }
+            
+            article ol li {
+                margin: 5px;
+            }
+            
+            article table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+            
+            article table tr th {
+                background-color: #515151;
+                color: #ffffff;
+                text-align: left;
+            }
+            
+            article table tr td {
+                border: 1px solid #ccc;
+            }
+            
+            article table .sum {
+                background: #ccc;
+            }
+            
+            aside h2 {
+                border-left: 5px solid #ccc;
+                font-size: 18px;
+                line-height: 30px;
+                height: 30px;
+                padding: 10px;
+            }
+            aside form div{
+            	margin:10px;
+            	font-size:14px;
+				line-height:30px;
+				
+            }
+            aside form div .tips {
+            	float:left;
+                width: 35%;
+                text-align: right;
+				padding-right:15px;
+            }
+			aside form div p{
+				margin-left:35%;
+				color:#ccc;
+				padding-left:15px;
+			}
+			aside form div span{
+               padding:0 10px;
+			}
+			.btn{
+				background-color:#3355d0;
+				width:100%;
+				height:50px;
+				border-radius:10px;
+				color:#ffffff;
+				font-size:18px;
+				border:none;
+			}
+			.btn:hover{
+				background:#0063dc;
+			}
+			footer{
+				height:50px;
+				width:100%;
+				background-color:#333333;
+				color:white;
+				text-align:center;
+				line-height:50px;
+				font-size:12px;
+			}
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="www.baidu.com"><img src="http://hollowtree.github.io/demo/ife/image/task_1_02_1.png" alt="" /></a>
+            <ul>
+                <li>
+                    <a href="#">导航链接一</a>
+                </li>
+                <li>
+                    <a href="#">导航链接二</a>
+                </li>
+                <li>
+                    <a href="#">导航链接三</a>
+                </li>
+                <li>
+                    <a href="#">导航链接四</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <article>
+                <h2>文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <h5>文章作者 文章发表时间</h5>
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    换行了
+                    <br/>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    换行了
+                    <br/>
+                    这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                </p>
+                <img src="../images/胡歌.jpg" alt="胡歌" />
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落， 换行了
+                    <br/>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                </p>
+            </article>
+            <article>
+                <h2>另一篇文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <h5>文章作者 文章发布时间</h5>
+                <p>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    <br/>
+                    换行了
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    换行了
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                    这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>
+                    这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>
+                    这是一个很长很长的段落，这是一个很长很长的段落，
+                </p>
+                <img src="../images/胡歌.jpg" alt="胡歌" />
+                <ul>
+                    <li>
+                        列表项目一
+                    </li>
+                    <li>
+                        列表项目二
+                    </li>
+                    <li>
+                        列表项目三
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h2>图片 </h2>
+                <dl>
+                    <dt>
+                    </dt>
+                    <dd>
+                        <span>拥抱大海</span>
+                        <img src="../images/胡歌.jpg" alt="面向大海" />
+                    </dd>
+                    <dd>
+                        <span>拥抱大海</span>
+                        <img src="../images/胡歌.jpg" alt="面向大海" />
+                    </dd>
+                    <dd>
+                        <span>拥抱大海</span>
+                        <img src="../images/胡歌.jpg" alt="面向大海" />
+                    </dd>
+                    <dd>
+                        <span>拥抱大海</span>
+                        <img src="../images/胡歌.jpg" alt="面向大海" />
+                    </dd>
+                </dl>
+            </article>
+            <article>
+                <h2>最后一篇文章一级标题</h2>
+                <h3>文章二级标题</h3>
+                <h5>文章作者  文章发布时间</h5>
+                <ol>
+                    <li>
+                        排名1
+                    </li>
+                    <li>
+                        排名2
+                    </li>
+                    <li>
+                        排名3
+                    </li>
+                    <li>
+                        排名4
+                    </li>
+                </ol>
+                <span>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格
+                    <br/>
+                </span>
+                <table border="1px">
+                    <tr>
+                        <th>
+                            表头
+                        </th>
+                        <th>
+                            表头
+                        </th>
+                        <th>
+                            表头
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            <a href="#">操作</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            <a href="#">操作</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            <a href="#">操作</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            表内容单元格
+                        </td>
+                        <td>
+                            <a href="#">操作</a>
+                        </td>
+                    </tr>
+                    <tr class="sum">
+                    <td>
+                        总计
+                    </td>
+                    <td colspan="2">
+                        1000
+                    </td>
+                    </td>
+                </table>
+            </article>
+			
+            <aside>
+                <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+                <form>
+                    <div>
+                        <label class="tips">
+                            请输入邮箱地址：
+                        </label>
+                        <input type="text" placeholder="这是一个文本输入框"/>
+                        <p>
+                            邮箱地址请按要求格式输入
+                        </p>
+                    </div>
+					
+                    <div>
+                        <label class="tips">
+                            请输入密码：
+                        </label>
+                        <input type="password"  placeholder="这是一个文本输入框"/>
+                    </div>
+					
+                    <div>
+                        <label class="tips">
+                            请重复输入密码：
+                        </label>
+                        <input type="password"  placeholder="这是一个文本输入框"/>
+                        <p>
+                            密码请为8-16位英文数字
+                        </p>
+                    </div>
+					
+					
+                    <div>                    	
+                        <label class="tips">
+                            性别：
+                        </label>
+                        <input type="radio" checked=checked/><span>男</span><input type="radio" /><span>女</span>
+                    </div>
+					
+					
+                    <div>
+                        <label class="tips">
+                            城市：
+                        </label>
+                        <select name="" id="">
+                            <option value="">北京</option>
+                            <option value="">上海</option>
+                            <option value="">广州</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="tips">
+                            爱好:
+                        </label>
+                        <input type="checkbox" /><span>北京</span><input type="checkbox" /><span>艺术</span><input type="checkbox" /><span>科学</span>
+                    </div>
+					
+					
+                    <div>
+                        <label class="tips">
+                            个人描述：
+                        </label>
+                        <textarea name="" id="" cols="50" rows="5" placeholder="这是一个多行输入框，输入您的个人描述">
+                        </textarea>
+                    </div>
+					
+                    <input type="submit" value="确认提交" class="btn"/>
+                </form>
+            </aside>
+        </main>
+        <footer>
+            版权所有
+        </footer>
+    </body>
+</html>
