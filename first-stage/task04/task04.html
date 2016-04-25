@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.wrap{
+			width:400px;
+			height:200px;
+			background-color:#ccc;
+			overflow:hidden;
+			position:absolute;
+			top:50%;
+			left:50%;
+			margin-top:-100px;
+			margin-left:-200px;
+		}
+		.circle_1,.circle_2{
+			background-color:#fc0;
+			width:50px;
+			height:50px;
+			position:absolute;
+			
+		}
+		.circle_1{
+			border-radius:0 0 50px 0;
+			top:0;
+            left:0;
+		}
+		.circle_2{
+			border-radius:50px 0 0 0;
+            right:0;
+            bottom:0;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="circle_1"></div>
+		<div class="circle_2"></div>
+	</div>
+</body>
+</html>
