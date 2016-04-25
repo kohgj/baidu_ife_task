@@ -1,0 +1,169 @@
+/*
+清除默认样式
+*/
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"黑体";
+	font-size:14px;
+	font-weight:normal;
+	box-sizing:border-box;
+}
+body{
+	background-color:#ccc;
+	
+}
+/*
+页眉样式
+*/
+header,footer{
+	width:100%;
+	background-color:#333333;
+	height:60px;
+}
+header ul{
+	float:right;
+}
+header ul li{
+	float:left;
+	list-style:none;
+	margin-right:20px;
+}
+header ul li a,header ul li a:visited{
+	color:white;
+	text-decoration:none;
+	line-height:60px;
+}
+header ul li:hover a{
+	color:red;
+}
+footer{
+	text-align:center;
+	color:white;
+	line-height:60px;
+}
+
+
+/*
+布局设计
+*/
+
+aside{
+	float:right;
+	width:400px;
+	height:auto;
+	margin:40px;
+}
+section{
+	margin:40px 480px 40px 40px;
+}
+
+
+/*
+边框样式
+*/
+aside,article{
+	border:1px solid #999;
+	padding:20px;
+	background-color:white;
+	line-height:1.5;
+	box-shadow:5px 5px 5px #999;
+}
+article{
+	margin:20px 0;
+}
+
+/*
+文章样式
+*/
+article h2{
+	font-size:24px;
+	font-weight:bold;
+	margin:10px 0;
+}
+article h3{
+	font-size:18px;
+	margin:5px 0;
+}
+article h5{
+	font-size:12px;
+}
+article p{
+	margin:10px 0;
+	font-size:14px;
+	text-indent:28px;
+	line-height:24px;
+}
+article ul{
+	list-style:none;
+}
+.pic ul{
+	text-align:center;
+}
+article ul li{
+	margin:5px 0;
+}
+.pic ul li{
+	width:240px;
+	height:280px;
+	border:1px solid #999;
+	display:inline-block;
+	padding-top:20px;
+}
+.pic ul li img{
+	width:200px;
+	height:200px;
+	margin:20px 20px 20px 20px ;
+}
+article ol{
+	margin:20px 40px;
+}
+article table{
+	width:100%;
+	border-collapse:collapse;
+}
+article table tr th{
+	text-align:left;
+	background-color:black;
+	color:white;
+}
+article  table tr th,article table tr td{
+	border:1px solid #999;
+}
+article table .sum{
+	background:#ccc;
+}
+
+
+/*
+侧栏样式
+*/
+aside h2{
+	font-size:20px;
+    font-weight:bold;
+    margin:10px 0;
+	padding-left:20px;
+	border-left:3px solid #ccc;
+	line-height:40px;
+}
+aside form div{
+	margin:10px 0;
+}
+
+aside form div .tips{
+	width:35%;
+	float:left;
+	text-align:right;
+}
+aside form div p{
+	margin:10px 0 20px 35%;
+	
+}
+aside .btn{
+	width:100%;
+	height:50px;
+	background-color:blue;
+	color:white;
+	border-radius:15px;
+}
