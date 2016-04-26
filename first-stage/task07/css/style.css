@@ -1,0 +1,563 @@
+/*
+总样式
+*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:auto; 
+	min-width:1280px;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.float_father{
+	overflow:auto;
+}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+/*
+页眉样式
+*/
+header{
+    width:100%;
+    height:56px;
+	line-height:56px;
+}
+
+header ul li{
+	line-height:46px;
+	display:inline-block;
+	margin-right:45px;
+}
+header ul li a{
+	color:#787b83;
+}
+header ul li:hover{
+	border-bottom:5px solid #e74f4d;
+}
+header ul li:hover a{
+	color:#e74f4d;
+}
+.logo{
+	height:56px;
+	background:url(../images/header_logo.png) no-repeat left center;
+	text-indent:40px;
+    font-size:21px;
+	margin-left:60px;
+}
+.login{
+	background:url(../images/login_icon.png) no-repeat left center;
+	text-indent:20px;
+	margin-right:65px;
+}
+.login a{
+	   color:#e74e4d;
+}
+
+/*
+开始体验部分
+*/
+.experience{
+	width:100%;
+	height:690px;
+	background:url(../images/main.gif) no-repeat left center;
+	background-size:100%;
+	position:relative;
+}
+.experience i{
+    display:block;
+    background:black;
+    opacity:0.2;
+    width:100%;
+    height:690px;
+}
+.newlife{
+	position:absolute;
+	top:200px;
+	left:10%;
+	color:white;
+	width:50%;
+}
+.newlife h1{
+	font-size:60px;
+}
+.newlife h2{
+	font-size:21px;
+	margin-top:20px;
+}
+.newlife a{
+	display:block;
+	width:331px;
+	height:65px;
+	background:#e7504d;
+	color:white;
+	line-height:65px;
+	text-align:center;
+	font-size:30px;
+	margin-top:50px;
+}
+
+/*
+4列布局部分
+*/
+
+.col_4{
+	width:100%;
+	height:250px;
+	text-align:center;
+	box-sizing:border-box;
+}
+.col_4 ul li{
+	float:left;
+	width:25%;
+	margin:170px -2px 65px 0;
+	border-right:2px solid #ccc;
+	position:relative;
+}
+.col_4 ul li img{
+	position:absolute;
+	top:-100px;
+	left:45%;
+}
+.col_4 ul li:last-child{
+	border-right:none;
+}
+/*
+主框架LOGO
+*/
+.main_logo{
+	padding:0;
+	width:100%;
+	height:360px;
+	text-align:center;
+	background-color:#edecec;
+}
+.main_logo img{
+	width:92px;
+	height:92px;
+	margin:70px 0 50px 0;
+}
+.main_logo p{
+	font-size:54px;
+	color:#8f908f;
+	line-height:30px;
+}
+
+/*
+城市搜索部分
+*/
+
+.city{
+	width:100%;
+	height:340px;
+	text-align:center;
+	background:url(../images/city.gif) no-repeat left center;
+    background-size:100%;
+}
+.city h3{
+	color:white;
+	padding:50px 0 10px 0;
+	font-size:21px;
+}
+.city p{
+	width:30px;
+	height:2px;
+	background:white;
+	margin:0 auto 20px;
+}
+.city h5{
+	color:white;
+	font-size:12px;
+	margin-bottom:50px;
+}
+.city ul{
+	margin:0 auto;
+}
+.city ul li{
+	display:inline-block;
+	width:236px;
+	height:36px;
+	background:white;
+	
+	margin: 0 2%;
+	line-height:36px;
+	text-align:left;
+	font-size:12px;
+	color:#a8aaaa;
+	padding-left:10px;
+	position:relative;
+}
+.city ul li img{
+	float:right;
+	margin:10px;
+}
+.city ul .last_child{
+	background:#bf4f49;
+	text-align:center;
+	color:white;
+	font-size:14px;
+	letter-spacing:20px;
+}
+.city ul li ul{
+	position:absolute;
+	top:36px;
+	left:-5px;
+}
+.city ul li ul li{
+	background-color:#ccc;
+	color:black;
+}
+.city ul li ul li:hover{
+	background:#bf4f49;
+	color:white;
+}
+
+
+/*
+油画部分
+*/
+.painting{
+	width:100%;
+	height:600px;
+	background-color:#edecec;
+}
+.painting ul{
+	width:1040px;
+	margin:0 auto;
+	padding-top:100px;
+}
+.painting ul li{
+	float:left;
+	width:220px;
+	height:450px;
+	margin:20px;
+	text-align:center;
+}
+.painting ul li img{
+	background-color:white;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.painting ul li h4{
+	font-size:16px;
+	margin-top:10px;
+	font-weight:normal;
+}
+.painting ul li h5{
+    font-size:12px;
+    margin-top:10px;
+    font-weight:normal;
+	color:#818181;
+}
+.painting ul li:nth-child(2) h5{
+    margin:5px 0;
+}
+.painting ul .hover h4{
+	letter-spacing:30px;
+	font-size:20px;
+	text-indent:10px;
+	font-weight:bold;
+}
+
+/*
+新世界部分
+*/
+.newworld{
+	width:100%;
+	height:1086px;
+}
+.newworld ul li{
+	height:543px;
+}
+.newworld ul .dedail_newworld{
+	width:66%;
+	background:url(../images/newworld.gif) no-repeat left center;
+	background-size:100%;
+	color:white;
+	text-align:center;
+}
+.newworld ul .dedail_newworld h2{
+	margin-top:130px;
+	font-size:50px;
+}
+.newworld ul .dedail_newworld h1{
+	font-size:160px;
+	font-weight:normal;
+}
+.newworld ul .dedail_newworld h4{
+    font-size:22px;
+    font-weight:normal;
+	line-height:44px;
+}
+
+
+.newworld ul .dedail_beijing{
+    width:34%;
+    text-align:center;
+}
+.newworld ul .dedail_beijing h4{
+    font-size:22px;
+    font-weight:normal;
+    line-height:44px;
+	margin-top:170px;
+	letter-spacing:5px;
+}
+.newworld ul .dedail_beijing h4 span{
+	color:#e74f4d;
+}
+.newworld ul .dedail_beijing p{
+	height:100px;
+	margin:30px 70px;
+	font-size:12px;
+	color:#aaaaaa;
+	line-height:30px;
+}
+.newworld ul .dedail_beijing a{
+    display:block;
+	margin:0 auto;
+	width:105px;
+	height:35px;
+    font-size:12px;
+    color:#e74f4d;
+    line-height:35px;
+	border:1px solid #e74f4d;
+}
+.newworld ul .dedail_beijing a:hover{
+	color:white;
+	background-color:#e74f4d;
+}
+.newworld ul .dedail_beijing ul{
+	display:block;
+	width:105px;
+	margin:25px auto;
+}
+.newworld ul .dedail_beijing ul li{
+	float:left;
+	width:10px;
+	height:10px;
+	border:1px solid #aaaaaa;
+	margin:0 10px;
+	border-radius:10px;
+}
+.newworld ul .dedail_beijing ul .selected{
+	background:#aaaaaa;
+}
+.newworld ul .dedail{
+    width:33%;
+	text-align:center;
+	font-size:21px;
+    line-height:30px;
+}
+.newworld ul .dedail p{
+    margin-top:170px;
+}
+.newworld ul .dedail div{
+	width:30px;
+	height:3px;
+	margin:20px auto;
+}
+.newworld ul .dedail a{
+	display:block;
+	margin:0 auto;
+	width:170px;
+	height:44px;
+	font-size:21px;
+	line-height:44px;
+}
+.dedail_left{
+	background-color:#e74f4d;
+	color:white;
+}
+.dedail_left a{
+	color:white;
+	border:1px solid white;
+}
+.dedail_left div{
+    background-color:white;
+}
+.dedail_left a:hover{
+    color:#e74f4d;
+	background:white;
+    border:1px solid white;
+}
+.dedail_right{
+    background-color:white;
+}
+.dedail_right a{
+    color:#e74f4d;
+    border:1px solid #e74f4d;
+}
+.dedail_right div{
+    background-color:black;
+}
+.dedail_right a:hover{
+    color:white;
+    background:#e74f4d;
+    border:1px solid #e74f4d;
+}
+.newworld ul .metro{
+    width:34%;
+    background:url(../images/metro.gif) no-repeat left center;
+	background-size:105%;
+}
+
+/*
+申请表
+*/
+.table{
+	overflow:hidden;
+}
+.table header{
+	width:100%;
+	padding-top:120px;
+	text-align:center;
+	height:180px;
+}
+.table header h3{
+	font-size:21px;
+	line-height:30px;
+}
+.table header div{
+	margin:10px auto;
+	width:40px;
+	height:3px;
+	background-color:#e74f4d;
+}
+.table header p{
+	font-size:12px;
+	line-height:18px;
+	color:#aaaaaa;
+}
+.table article{
+	box-sizing:border-box;
+	width:40%;
+	height:280px;
+	padding:0 60px 0 180px;
+	color:#231815;
+}
+.table article h4{
+	font-size:14px;
+	opacity:0.8;
+	margin-bottom:20px;
+}
+.table article p{
+	font-size:12px;
+	opacity:0.6;
+	margin-bottom:20px;
+	position:relative;
+}
+.table article p a{
+	position:absolute;
+	width:50px;
+	right:0;
+	text-indent:15px;
+	font-size:10px;
+	color:black;
+	opacity:1;
+	bottom:-10px;
+	background:url(../images/arrow.gif) no-repeat left center;
+}
+
+.table form table{
+	width:60%;
+	border-collapse:collapse;
+	margin-top:-12px;
+	color:#231815;
+	font-size:14px;
+	opacity:0.8;
+}
+.table form table tr td{
+	background-color:#efefef;
+	border:12px solid white;
+	height:40px;
+	width:50%;
+	padding-left:20px;
+}
+.table form table tr td a{
+	color:black;
+	font-size:14px;
+	line-height:40px;
+	display:block;
+	width:100%;
+	height:40px;
+	text-align:center;
+}
+
+/*
+联系我们
+*/
+.continue{
+	background-color:#32363e;
+	width:100%;
+	height:360px;
+	margin-top:180px;
+	color:white;
+	text-align:center;
+	padding-top:90px;
+	box-sizing:border-box;
+}
+.continue h2{
+	font-size:21px;
+	line-height:40px;
+}
+.continue p{
+	font-size:12px;
+}
+.search{
+	width:410px;
+	height:40px;
+	margin:30px 0 40px 0;
+	padding:0 10px;
+}
+.submit{
+	width:80px;
+	height:44px;
+	border:none;
+	background-color:#6f7278;
+	margin-left:-5px;
+	color:white;
+	letter-spacing:10px;
+	text-indent:10px;
+}
+.continue img{
+	margin:0 20px;
+}
+
+/*
+页脚
+*/
+footer{
+	width:100%;
+	height:60px;
+	background-color:#2f2f38;
+	color:white;
+	overflow:hidden;
+	font-size:12px;
+
+}
+footer span{
+	float:left;
+	padding:30px 0 0 100px;
+	
+}
+footer a{
+	float:right;
+	padding:30px 10px 0 0;
+	color:white;
+}
