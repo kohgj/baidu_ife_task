@@ -1,0 +1,47 @@
+div{
+	box-sizing:border-box;
+	padding:20px;
+	margin-top:20px;
+}
+.container{
+	border:1px solid #d5d5d5;
+}
+.biger,.middle,.small,.bigest{
+	width:150px;
+}
+.biger,.middle,.small{
+	border:1px solid red;
+}
+.bigest{
+	border:1px solid blue;
+}
+.biger{
+	height:120px;
+}
+.middle{
+	height:100px;
+}
+.small{
+	height:40px;
+}
+.bigest{
+	height:200px;
+}
+@media screen and (min-width:640px){
+	.container{
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}
+}
+@media screen and (max-width:640px){
+	.bigest{
+		order:-1;
+	}
+    .container{
+        display:flex;
+		flex-wrap:wrap;
+        align-items:flex-start;
+		justify-content:space-between;
+    }
+}
