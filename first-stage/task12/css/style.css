@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;
+}
+table,th,td{
+	border: 1px solid white;
+}
+table tr th{
+	text-align: left;
+	color:white;
+	background-color: black;
+}
+table tr:nth-of-type(odd){
+	background-color: grey;
+}
+table tr:nth-child(-n+4){
+	color:red;
+}
+input{
+	width:150px;
+	border: 1px solid grey;
+	transition:width 1s;
+}
+input:focus{
+	width:300px;
+	box-shadow: 0 0 5px blue;
+}
+.slider{
+	width:400px;
+	height:200px;
+	position: relative;
+	margin-top: 20px;
+}
+.banner{
+	width: 400px;
+	height:200px;
+	position: absolute;
+	left:0;
+	top:0;
+	overflow: hidden;
+}
+.banner ul{
+	position: absolute;
+	top:0;
+	left:0;
+	width:1200px;
+}
+.banner ul li{
+	list-style: none;
+	float:left;
+	width:400px;
+	height:200px;
+}
+.banner ul #slider1{
+	background-color: red;
+}
+.banner ul #slider2{
+	background-color: blue;
+}
+.banner ul #slider3{
+	background-color: green;
+}
+.slider nav{
+	z-index: 100;
+	position: absolute;
+	right:0;
+	bottom: 0;
+	display: flex;
+	width:129px;
+	justify-content:space-between;
+}
+.slider nav a{
+	display: block;
+	float:left;
+	width:40px;
+	height:50px;
+	background-color: white;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+	opacity: 0.4;
+}
