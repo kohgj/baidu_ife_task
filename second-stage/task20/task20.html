@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度前端技术学院任务二十</title>
+	<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			padding:20px;
+		}
+		#putin{
+			width:500px;
+			margin-top:20px;
+		}
+		#tag{
+			width:500px;
+			
+			border: 1px solid #ccc;
+			margin-top:20px;
+			list-style: none;
+			display: flex;
+			box-sizing: border-box;
+			
+			flex-wrap:wrap;
+		}
+		#tag li{
+			width:80px;
+			height:30px;
+			margin:20px;
+			text-align: center;
+			line-height: 30px;
+			border-radius:5px;
+			border:1px solid blue;
+		}
+		#tag li:hover{
+			box-shadow: 0 0 5px gray;
+			cursor: pointer;
+		}
+		#input_search{
+			margin-top:20px;
+		}
+	</style>
+</head>
+<body>
+	<textarea name="putin" id="putin" cols="30" rows="10"></textarea>
+	<button id="submit">提交</button>
+	<ul id="tag">
+	</ul>
+	<input type="textarea" placeholder="请输入要查询的关键字" id="input_search">
+	<button id="search">查询</button>
+	<script type="text/javascript" src="task20.js"></script>
+</body>
+</html>
