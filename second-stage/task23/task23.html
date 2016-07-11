@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务二十三：遍历节点查值</title>
+	<style type="text/css">
+	div{
+		border: 1px solid #000;
+		display: flex;
+		justify-content:space-around;
+		padding:10px;
+		box-sizing: border-box;
+		margin:10px;
+		background: white;
+		color:#000;
+	}
+
+	#wrap>div>div>div>div{
+		width:80px;
+		height:40px;
+	}
+	#wrap{
+		border: none;
+	}
+	#wrap>div{
+		width:950px;
+	}
+	</style>
+</head>
+<body>
+	<input id="search" placeholder="请输入要查找的内容">
+	<button id="preorderbutton">前序遍历查找</button>
+	<button id="afterorderbutton">后序遍历查找</button>
+	<div id="wrap">
+		<div>
+			super
+			<div>
+				car
+				<div>
+					apple
+					<div>
+						banana
+					</div>
+					<div>
+						orange
+					</div>
+					<div>
+						blue
+					</div>
+					<div>
+						red
+					</div>
+				</div>
+				<div>
+					phone
+					<div>
+						mouse
+					</div>
+					<div>
+						arm
+					</div>
+					<div>
+						hand
+					</div>
+				</div>
+			</div>
+			<div>
+				body
+				<div>
+					left
+					<div>
+						hot
+					</div>
+					<div>
+						clear
+					</div>
+				</div>
+				<div>
+					right
+				</div>
+			</div>
+		</div>
+		<div>
+			black
+			<div>
+				block
+				<div>
+					mother
+					<div>
+						father
+					</div>
+					
+				</div>
+				<div>
+					dog
+					<div>
+						pig
+					</div>
+					
+				</div>
+			</div>
+			<div>
+				son
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="task23.js"></script>
+</body>
+</html>
