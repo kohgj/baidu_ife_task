@@ -1,0 +1,29 @@
+.hidden{
+	display: none;
+}
+.visual{
+	display: block;
+}
+.open{
+	background: url(file2.jpg) no-repeat left 0;
+}
+.close{
+	background: url(file1.jpg) no-repeat left 0;
+}
+
+#wrap div{
+	margin-left: 20px;
+	cursor:pointer;
+}
+#wrap div span{
+	display: block;
+	height:30px;
+	line-height: 30px;
+	padding-left: 30px;
+}
+.black{
+	color:black;
+}
+.red{
+	color:red;
+}
