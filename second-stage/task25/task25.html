@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务二十五：树形组件</title>
+	<link rel="stylesheet" type="text/css" href="task25.css">
+</head>
+<body>
+	<input placeholder="请输入要搜索的节点" id="search_input">
+	<button id="search_btn">搜索</button>
+	</br>
+	<input placeholder="请输入要添加的节点" id="add_input">
+	<button id="add_btn">添加</button>
+	</br>
+	<button id="del_btn">删除所选子节点</button>
+		<div id="wrap">
+			<div class="visual"><span class="open black">apple</span>
+				<div class="visual"><span class="open black">apple4s</span></div>
+				<div class="visual"><span class="open black">apple5</span></div>
+				<div class="visual"><span class="open black">apple5s</span></div>
+				<div class="visual"><span class="open black">apple6</span>
+					<div class="visual"><span class="open black">apple watch</span></div>	
+				</div>
+				<div class="visual"><span class="open black">apple6s</span></div>
+			</div>
+			<div class="visual"><span class="open black">三星</span>
+				<div class="visual"><span class="open black">三星S3</span></div>
+				<div class="visual"><span class="open black">三星s4</span></div>
+				<div class="visual"><span class="open black">三星s5</span></div>
+				<div class="visual"><span class="open black">三星s6</span></div>
+			</div>
+		</div>
+	<script type="text/javascript" src="task25.js"></script>
+</body>
+</html>
